@@ -6,7 +6,7 @@ class _Node {
 	}
 }
 
-class Stack {
+class StackClass {
 	constructor() {
 		this.top = null;
 	}
@@ -36,3 +36,5 @@ class Stack {
 		return node.data;
 	}
 }
+
+module.exports = StackClass;
